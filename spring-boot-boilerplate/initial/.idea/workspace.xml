@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaad79cc-275a-45eb-b954-01c96e734e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/NewSessionAttibuteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot/HelloController.java" afterDir="false" />
-    </list>
+    <list default="true" id="aaad79cc-275a-45eb-b954-01c96e734e1f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1lNxCLPZyOhFchRg7bBR0Qi9TSq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,6 +77,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="58" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607455661606">
@@ -98,9 +96,9 @@
       <screen x="0" y="23" width="1280" height="746" />
     </state>
     <state x="341" y="122" width="598" height="548" key="find.popup/0.23.1280.746@0.23.1280.746" timestamp="1607454332673" />
-    <state x="305" y="93" width="670" height="676" key="search.everywhere.popup" timestamp="1607453705204">
+    <state x="305" y="93" width="670" height="676" key="search.everywhere.popup" timestamp="1607550310702">
       <screen x="0" y="23" width="1280" height="746" />
     </state>
-    <state x="305" y="93" width="670" height="676" key="search.everywhere.popup/0.23.1280.746@0.23.1280.746" timestamp="1607453705204" />
+    <state x="305" y="93" width="670" height="676" key="search.everywhere.popup/0.23.1280.746@0.23.1280.746" timestamp="1607550310702" />
   </component>
 </project>

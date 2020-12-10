@@ -8,19 +8,23 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 @RestController
-@SessionAttributes("sessionString")
 public class HelloController {
 
-	@RequestMapping("/homepage")
+	@RequestMapping("/accueil")
 	public String index(HttpServletRequest request) {
-		String session = (String)request.getSession().getAttribute("cart");
+		String session = (String)request.getSession().getAttribute("variableDeSession");
+		request.getSession().setMaxInactiveInterval(30);
 		return "Page d'accueil. Variable de session: " + session;
 	}
 
-	@RequestMapping("/defineSessionAttribute/{value}")
+	@RequestMapping("/definirVariableDeSession/{value}")
 	public String defineSessionAttribute(HttpServletRequest request, @PathVariable("value") String value) {
 
-		request.getSession().setAttribute("cart", value);
+		// ajout de variable de session
+		request.getSession().setAttribute("variableDeSession", value);
+
+		// Expiration
+		request.getSession().setMaxInactiveInterval(30);
 
 		return "Ajout de variable de session: " + value;
 	}
